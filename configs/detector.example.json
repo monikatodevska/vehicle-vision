@@ -1,0 +1,12 @@
+{
+  "height": 341,
+  "width": 512,
+  "stride": 8,
+  "score_threshold": 0.85,
+  "iou_threshold": 0.3,
+  "background_class": 3,
+  "regression_mode": "position_size",
+  "regression_scales": [1.0, 1.0, 1.0, 1.0],
+  "normalize_pixels": false,
+  "batch_size": 8
+}
