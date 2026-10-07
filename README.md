@@ -2,7 +2,7 @@
 
 Vehicle detection and traffic analysis tools built from a collection of fully
 convolutional single-shot detector research experiments. The maintained Python
-package provides image inference, detection evaluation, video frame extraction,
+package provides model training, image inference, detection evaluation, video frame extraction,
 and an IoU tracking baseline.
 
 **Author:** Monika Todevska.
@@ -40,19 +40,52 @@ benchmark results. The example needs neither TensorFlow nor trained weights.
 - Video extraction with a source-frame and timestamp manifest.
 - Deterministic IoU tracking with persistent IDs and configurable track expiration.
 - An inception-based, stride-8 detector adapted from the original research architecture.
+- Portable two-head training with validated legacy targets, checkpoints, and run logs.
+- Original training pipelines, generated-ground-truth loaders, custom losses, and model variants.
 - Automated tests and lint/format checks configured for GitHub Actions.
 
 ## Repository Layout
 
 ```text
 vehicle_vision/       Maintained application and reusable components
-configs/             Portable inference configuration
+configs/             Portable inference and training configurations
 examples/            Synthetic annotations for a reproducible evaluation
 tests/               Core, image/video, and optional model tests
 docs/                Architecture, migration notes, and research inventory
-archive/research/    Historical experiments retained locally (excluded from Git)
+archive/research/    Full research source, including training and ground-truth generation
 .github/workflows/   Automated checks
 ```
+
+## Training And Ground Truth
+
+The professional two-head trainer is in [vehicle_vision/training.py](vehicle_vision/training.py).
+It preserves the original model and loss conventions while adding data validation,
+bounded batches, reproducible settings, and saved checkpoints. After installing
+`.[ml]` and configuring your private image and tensor folders:
+
+```bash
+vehicle-vision validate-training --config configs/training.example.json --trust-pickle
+vehicle-vision train --config configs/training.example.json \
+  --output outputs/training/run-01 --trust-pickle
+```
+
+Use the trust flag only for your own generated pickle files. Safe NPZ targets
+are also supported. See the [training guide](docs/training.md) for target formats,
+configuration, fine-tuning, and artifacts. All original experiment code remains
+in [archive/research](archive/research):
+
+| Pipeline | Source |
+| --- | --- |
+| Separate classification and regression heads | [FCN_SSD_anchorless_generator.py](archive/research/FCN_SSD_anchorless_generator.py) |
+| Combined classification and regression output | [FCN_SSD_anchorless_generator_combined_output.py](archive/research/FCN_SSD_anchorless_generator_combined_output.py) |
+| Classification masks with weight maps | [FCN_SSD_generator_new_LS.py](archive/research/FCN_SSD_generator_new_LS.py) |
+| Model architectures and custom losses | [helper_model1.py](archive/research/helper_model1.py), [helper_losses.py](archive/research/helper_losses.py) |
+
+These research scripts retain their experiment-specific paths, preprocessing,
+and historical Keras APIs. Their generated `.txt` ground-truth files can be
+binary pickle streams; they are different from the bounding-box CSV files used
+by the maintained evaluator. Training needs the corresponding private images,
+generated tensors, configuration, and a compatible environment.
 
 ## Run Inference
 
@@ -122,7 +155,8 @@ ruff format --check .
 ```
 
 TensorFlow tests skip when the ML dependency is absent. The GitHub Actions model
-job installs TensorFlow and checks output shapes and save/load round trips.
+job installs TensorFlow and checks output shapes, synthetic training, loss
+equations, and save/load round trips.
 Archive scripts are excluded from the supported package, lint checks, and test
 discovery because they retain experiment-specific dependencies and paths.
 
@@ -134,7 +168,8 @@ and [GitHub publishing instructions](docs/publishing.md).
 This project develops vehicle detection and traffic-analysis experiments from
 an initial machine-vision baseline. The published package consolidates reusable
 operations and provides a reproducible evaluation workflow. Historical training
-experiments are preserved locally and excluded from the public repository.
+experiments, supporting utilities, and custom losses are included in the public
+research archive. Private data and model binaries remain local.
 
 No model accuracy, throughput, or real-world speed-estimation claims are made
 without validated data and measurements. A license has not yet been selected.
