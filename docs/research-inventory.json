@@ -1,0 +1,668 @@
+[
+  {
+    "path": "get_coef.py",
+    "sha256": "9e9b1ca667aa561f4920ccea4b2c44a64485450749d77be95cda8ff3f3e900bd",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "Koli_IouLoss/iou_loss.py",
+    "sha256": "d2ed20d8cf59fcf20548f090fc19f2459f4b5733e50a4160634cd9c8644ba9aa",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "calculate_rmse_test.py",
+    "sha256": "8427846849ed3898df5c720a4ba5125bba116ad57a9fb20ac51df7374c584657",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "helper_losses.py",
+    "sha256": "2f78d9d4c2cb4bdd5483b15ed06ace8273e235a6335a2eb456e920ad2a3b681e",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "probno.py",
+    "sha256": "464c9ff4065ef4646893d6d5e38788e2f52586c66c8eba77d0ea3ace884c935d",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "cityscapes.py",
+    "sha256": "a0102ed2a8597ace8754fac55792c87ae8d38231b3c12f77b06ef196fb5ef4da",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "yolo_eval_gpt.py",
+    "sha256": "84cbc691feb39f5ba961cf7c611805a1f5181253d64e404200c63a168c7e5fa3",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_testingFrames.py",
+    "sha256": "707266aa3d091d322258d9371f714209d8b7d8dd903d31046cac3e5f7f352f8c",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "convert_to_pb.py",
+    "sha256": "88e1be02347adc1da5692f2db6b92bf544a60ec3fa3969ccc5cb21bf51b53e33",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "k.py",
+    "sha256": "a34db0a69d8f85337cea8c57695405ec3ee03dcdb234d3586086fa21d83ca7fb",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "metrics.py",
+    "sha256": "3913fbd72a7a1040c39db494d37a41a7b74ca8ef3d23b373768131a9a104778e",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "save_training_logs_ssd.py",
+    "sha256": "b60f9e1b51c4ccddd11010bf6442a6b0e556d5119e0b7b3464653317b1a92997",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "add_class_nikolaj.p",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "calculate_speed_by_frames_siamese.py",
+    "sha256": "ebdf2c448345d03d07e55ada9fdd9f9d1394aced80ad6f300ef1280a5ddc6242",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "zalepi_zivotni.py",
+    "sha256": "de7f46ef6f6f7bb6efcb6c08a6d1e6edeea10e5761147b6428f9025e93f30eee",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_test_video.py",
+    "sha256": "edaf10b77714603b43425ebc95c691cec8b7108bf19670671244b8bd85da72ec",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "form_gt_proba.py",
+    "sha256": "18cc2aaa68dd17724b574d574b487743aa6c4bb037868e5abd8d0afc7f415b6f",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_gen.py",
+    "sha256": "221fa2dd0e037b16d951faae26fcddc0da3236fabcce599b13981ea6d946d5af",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_anchorless_classifier.py",
+    "sha256": "eb5af18d16ac06f959da2da632958fc98d887b16eb2c8ff7ae3a1b1030149168",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "yolo_eval.py",
+    "sha256": "c99b8452d47af14d4cf9368f5c765ef7db75034e3a012d557da4e91b9ce1518a",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_anchorless_po_delovi.py",
+    "sha256": "c24707d776dec077d6fdbd3be9b4638913e3cb82924266fe4fdd872209ef4817",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_generator_main.py",
+    "sha256": "41bef2562377dc485d5bec96559c7a71894ac69cac27c9819a2a4afb13d37faf",
+    "parse_error": "unexpected indent (<unknown>, line 160)"
+  },
+  {
+    "path": "anchorless_genertor_plot.py",
+    "sha256": "6a3d19299c90c20ba7c63b652336af8bdd9e2544824a3346a1e692c49270e43f",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "helper_postprocessing.py",
+    "sha256": "8b07c312bb09c3d6286f1a05fc4b954bfa44e1e388e7e94e9991704bf361ae4d",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "test_pb.py",
+    "sha256": "defe481dd68dd3796b9ba0cbdcb677f211ced4b6726539acd28e18fa407f47d2",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "anchorless_generator.py",
+    "sha256": "2af0a2eac0f719a816254f897b9b5eccd362e2c43184b0bccb710d25692ea3e6",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "generator1.py",
+    "sha256": "11b17e5fb81eefc978f4b91525553ddbf0c45a4e77f3477875e1b7193b9fafbf",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "get_frames_from_video.py",
+    "sha256": "b8bd9d52cc85eca5dc82eed955809b7f0cae17f5869994f349892f65d46f1aeb",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "rename.py",
+    "sha256": "a5bcf6340b955941258b53ff6b1cc21c84a5f418b5d1d3c53cf5b2f1910ce7ec",
+    "parse_error": "invalid syntax (<unknown>, line 10)"
+  },
+  {
+    "path": "zalepi_lugje.py",
+    "sha256": "8afefe293e5f8121d5988592c7225673226414312e9881c866b73430163af360",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "rename_annot.py",
+    "sha256": "327404eb5b77f4f1f889762ed37004d923d1d5c66176be8db2bed0009f3213da",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "check_arhitecture_from_pb.py",
+    "sha256": "e3ca8a18e7fbd51d2241441d64ad7cf1d7da2aecad00a8f193e225998734fc2f",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_anhorless_generator_custom_loss.py",
+    "sha256": "d0c240fb7b1d3ad45e9eeba87c93575f9c024e35438a39d68d36f9500bfcd8d8",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_anchorless_centerness.py",
+    "sha256": "1a120cd61e9f44c05c1aad859b262fbfcafc8b775e635fb20fac83980034d206",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "zalepi_tovar.py",
+    "sha256": "ef664574fcb94ef761c8cb5719f3f193dd32f61a16e142fc9db83559401388bc",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "translate_images.py",
+    "sha256": "4630765767ffbfd2f677ca890924efec745544932feab8a7ba524d493163ab97",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "get_max.py",
+    "sha256": "2c77de625022fa688fda19b787080cc750a32888f5059a249dcdc526bd206044",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "helper_model1.py",
+    "sha256": "7051cae3f50af0e27bed85b9f3773f375bd4551f17dde40b9b37aabb0e162f47",
+    "duplicate_definitions": [
+      "load_model"
+    ]
+  },
+  {
+    "path": "rename333.py",
+    "sha256": "dd646d9cf59ffacf72b460b8463022743edbac26563a0bbbbbe452d66642718f",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "generator_improviizacija.py",
+    "sha256": "a7fb06db5f6d7fed4bcb41d292ab6f2ddc1597a531a27ebe94f41547f370045a",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "track_vehicles.py",
+    "sha256": "4845498844b2e6f45d58b0cc1853af17492b913cbbc672cb78047e76b49599cd",
+    "parse_error": "invalid syntax (<unknown>, line 90)"
+  },
+  {
+    "path": "FCN_SSD_finetune_cel_normalizedByRegion.py",
+    "sha256": "8fcd03e11a38acb120a17cb7708ec109326579261e2c03e188e72e728619bd40",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_generator_new_LS.py",
+    "sha256": "a77266afb72dcee556092e43f9db9a47bd5e4161ec4825493c8372770ae9f5b8",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "check_probability_maps.py",
+    "sha256": "149af42f95632395db6381d876462b12c0f6e0ac6a7fde37c884ecf8362d7bb8",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_anchorless_generator_distance.py",
+    "sha256": "159eb6b394d74f8f74fbef3e3a84efa6e47898937b123cd70ee9450debdf2f4e",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "rename_predictions.py",
+    "sha256": "6219666885ad0e00d7782fe7ef08c0faaf5d6b40c6d7ed242e1500b896fe6c44",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "zalepi_zivotni_pascal_voc.py",
+    "sha256": "f11389a9f3340a51824c3cebd3a15a1b29624da93d452cac56cab2ff6a7434f4",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "GT_zapisuvanje.py",
+    "sha256": "d0a7cb021d40e65d991ab753d13850d60c832bb4e23f635abc47d40593d0905f",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "helper_visualize_feature_maps.py",
+    "sha256": "c7ae1069f222b5331c3e99319095a79d2689d6b7265d85e1dd14819210df8783",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "Keras_LivePlot_Callback.py",
+    "sha256": "84e4d75a0eb635004ea598f91df1bbd2c76f042275c9ff17a857c4607e7a7494",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "blur_images.py",
+    "sha256": "ad0d1e5a776e61d67c64687736b0617981ee2aeefe33c05dab6facb8741ded19",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_test_distance_centerness.py",
+    "sha256": "af4d7ab18a600f9ed67ff111b05a8bb21bf621c6d16f0945b2327a4740e37302",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_test_video_combined_output.py",
+    "sha256": "31d6c692cc5ee7f48388d619ee491b2850b98db408ad8f49db0cbd81ad632315",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "generator_main.py",
+    "sha256": "7d803d5db780e83ee4247866caf0d33f906364919a114f59731f68e985494246",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_anchorless_finetune.py",
+    "sha256": "e37c9c765daaef3ece8ce690ca611949a53f1a911fb7f6cfd8b2f8ff0c89e439",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "Losses_test/loss_test.py",
+    "sha256": "af93efd9a73b5d45e43e70faf5853becd7c73405a61b5f2c922ec6ab377db7ad",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "add_class_nikolaj.py",
+    "sha256": "f34199790d49eeec14eba177e8672844a585a45f8cd8983387aee7374b4fc8bb",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "crop.py",
+    "sha256": "130ccf63f3c5474182781de5087012a7c98fbee71496f663ceda1ecb380cf477",
+    "parse_error": "invalid syntax (<unknown>, line 1)"
+  },
+  {
+    "path": "training_proba.py",
+    "sha256": "f10daead594068e0e318e414fbbbee8c09be076e088e592d5f2f04e28f31651b",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "anchorless_SSD.py",
+    "sha256": "05be36f818722b0b975675476bb0207101fcd510cee79e3f77e59d860981d1f1",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "move_video2frames.py",
+    "sha256": "0a1cd15ced2352979f8bcd74f828b11d75ae869fd683aa99533d8b8fed4a7e2e",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_anchorless_generator.py",
+    "sha256": "2cae3c1b094d91310d39e97d9312618cf9c6dd221b2e3457790d3a5d237d73c5",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "helper_model.py",
+    "sha256": "1dd526fac02555a57b92c012378ddb5d34856e6742006ac946211ffeef3143bd",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "change_brightness.py",
+    "sha256": "4969df72b4efc9849ecf9083f33252ae8fb40dc99365a17fac1cb42e239d966c",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_anchorless_cyclists.py",
+    "sha256": "2682771464a78df4cd0c5c75a4d8424e58e04663e2e206ef5a7e2c7382dddc15",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "count_vehicles_class.py",
+    "sha256": "027c7a6f6140ad43ba37a5faf69e13a3e47c6ac242b3565934e08c240eb43806",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "rename_annots.py",
+    "sha256": "23af1dd8b46c298f1701cc64cdeb1466fa30ccab0b1761cd1206cf0f5baa1d10",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD.py",
+    "sha256": "99f41dd74da4a450af3f4df1e3ad4e32ee1d16b78a95ecd3fa3c8419a26ec270",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "generator.py",
+    "sha256": "7a342fddc546f9463934b854c6b8a23ef691ce41ae7214833dd4d4aeeece0ab0",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "Videos/get_frames.py",
+    "sha256": "bf2aebd84ab323c038ac466d66021f1a5f30b37f4fb405ac37dbdd5eb3ba6b15",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "yolo_name_conv.py",
+    "sha256": "97b7ce5d818da57b30288ef7a50b554d7c15f2aeaa7a75cbcc139b50ef500e30",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "cp.hdf5",
+    "sha256": "b3b10367fc853f7da0ceb995f3662808feb7ef842e38a8d809e824763cb09fa6"
+  },
+  {
+    "path": "ggg",
+    "sha256": "837c21e6ca944a9d03a0e001da49fb5d0895f6012318e4ff90041e46c43027d6"
+  },
+  {
+    "path": "append_class.py",
+    "sha256": "3ea3062999f35eaa41bf21e8e7aabeb4e6dcc1244f4ea8069c108ae49f3b2ded",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "helper_anchorless_mc.py",
+    "sha256": "4991d26ae823496c7aef44d3a5871ee068a70e6217bfead60534d8d328c58b3c",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "lossovi_nebitno.py",
+    "sha256": "6b07725143829f2515835a84bff88be66a4109e3d653c09ea505d744e3140280",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "split.py",
+    "sha256": "cd6532c53bb7bc4f1959b495ba9ea40b833a7736a6b81b1d652ec26302308581",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "helper_stats.py",
+    "sha256": "7147109781e4c7a47c29c6bc85fd2a0c8f8e6098d001b2a50fe91f7d0ae6517d",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "debug.py",
+    "sha256": "9833cf0854da0a8ca31b1cf93b2bb8ecdc1f3eb9ae5ba07324f87fee8f5de87c",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "construct_model_file.py",
+    "sha256": "0fa6052baf73ca6558e5711c76fa1496c01668379d4334b5d17cf36d55660596",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "keras_repack.py",
+    "sha256": "908912a41e18a483d62946e8a9aeb9ef4bdc44828318be609d841c5229f2be0e",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "giou_loss_main_test.py",
+    "sha256": "36d1e31b4c6aeb0b4037a4805e0a2a4c68036443e60e4da1d39d745125c778c2",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_test_combined_output.py",
+    "sha256": "77dfcaa7e98c83d5f0c583675ac8970deefcf8aa38c86d1251ab5ae61ef42c06",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "helper_data.py",
+    "sha256": "ca194bfc00385650278825ccee84474d3d1dfd2cad723daded90209b6073744a",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "kineski_dataset.py",
+    "sha256": "e3ef37099d247a7538449d6054fd3ee2c367464d319597068634683e9e47d1ea",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "get_frames_with_vehicle.py",
+    "sha256": "b23a6fe417db9f3b5a678e76c60882e8d8c0a12239f4d62e4528408c6426dd6b",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "substract_images.py",
+    "sha256": "90752ca0f9665ef005e49639a84a5fa29455429917a5631433ce1eeb17648820",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "move.py",
+    "sha256": "7086cd4f3bff464fd8406f6add251fc1c9c581c564f66d45e30a0454c013954f",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_test.py",
+    "sha256": "68cfa16c43c563aabe57200c7e4010a2d17a70e80a06d538ea3421444e877267",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "tamara_crop.py",
+    "sha256": "b28549248952cf84af3279acca4031ecac8c2056aacb68d09b2e1cc89c065dcb",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "change_format_bboxes.py",
+    "sha256": "26f7c7cdebc9939938ac50bc6647c24c0e9e692d2c3f919d729017e06d56b5a4",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "GT_zapisuvanje_anchorless1.py",
+    "sha256": "56054db3aa1e0cade4be93c9874d9ec1167ccee0cca1da80dcc819191dafe341",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "flip.py",
+    "sha256": "38f99f981c42b62a9e4f8ec619ec7b3187cb6db912fa1a708369b77cd4feedd6",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_anchorless_generator_LS.py",
+    "sha256": "9a1a554d642d95cf33c5cd6b5e8eed72e10c34ae13fc97357b2dff4b2c226eb6",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "Wavelet_generator.py",
+    "sha256": "ff1b3f787c55b8193ae4931b18ebcec0c5636dffef83438191a6e415287863dc",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_test_LS.py",
+    "sha256": "ad2f00dc81edd5dcfcc265b9121142b2c3b710ad0c244133ce6a23eec329a0a2",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "check_same.py",
+    "sha256": "92d150b9d2b7883bfac41b4252ce9051295e689cc04fbc8de1cf6dd72f7ad8a9",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "generating_annotations_for_siamese.py",
+    "sha256": "7158d688416152608817f3cf9055eda56354f9e08fc1ad97f0f0396a8b9850f4",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "get_val_test.py",
+    "sha256": "e47cd5873e9007c6aa1147fd6eb9856e25ce0ff483b2468a063430d69bf20cf2",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "calculate_speed_by_frames.py",
+    "sha256": "cb5a304eaaf4c085842538cc85422ed02d3fa2bbe831fe3d94df3d5fd615e082",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_anchorless.py",
+    "sha256": "3a155d8b3626751487bbf6b50ea832cea0b8e34e1f38c2beac2fd18452a61de1",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_anchorless_generator_combined_output.py",
+    "sha256": "4e763300f961469c53d8e4531974f276691d349a90ccc3576770a0df02c05031",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "DataAnalysis/generate_plot_gt_novo_statsOnly.py",
+    "sha256": "4b9aabcb5b19c4423536273199316ebe5b0e7dcca44a3ac8d3cfce297ddda5d5",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "eval/eval_script.py",
+    "sha256": "50fb0729ac09650c8391d0da3519039009d60e8bbeec08eddd14577aa004bbcb",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "eval/eval_script_byclass.py",
+    "sha256": "db656a1fc2f42b59d9c243898fac1c142628218485aaf4bf36a10847b938bbc0",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "eval/modify_detections.py",
+    "sha256": "5754a84520da3949dae92d4651a2aaedbde9ed25ba2af7786dbf6e50e12c000a",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_anchorless_LS.py",
+    "sha256": "48b54336c422abd2e2f41fea8417d03d38824fc3509be3230c3c65da115a6abf",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "resize_images.py",
+    "sha256": "def4c2492313de1347d5ed77129eac5d53258b87f44a32ebffa81cf68c1cd4bb",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_test_LS_video.py",
+    "sha256": "1987a22221e6f8d673de8779fb05aba550a2a1766905c0c69ed8cdb748594369",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "plot_gt.py",
+    "sha256": "f3901385040ded33ccbb56d0b2504e0ecdcece3a864383fe27baf41a7d438720",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "split_annptations",
+    "sha256": "486d3f6dcd91bf696c2814f6578e3748948316f43946b7cddbaa3ac35615e31d"
+  },
+  {
+    "path": "plot_losses.py",
+    "sha256": "3d5eead40dd30ba2612470c3f2193e94813f9b264780f962bd9a68658b7c03bf",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_anchorless_LS_finetune.py",
+    "sha256": "ebdef1d4a1ec51ef2eb03e22be633b7d8cdf57be07f03fa422dbe15e30c61e3d",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "helper/utilities_test_cpu.py",
+    "sha256": "dfb45eff8b7bad2fcb6ee06b5a73074fa59468792c5f2396e28c7c675de19ddf",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "helper_anchorless.py",
+    "sha256": "add4c6b97010aee43dca1f12aab554b5f1156ff6d97e125c5460d13f405a11bc",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_anchorless_normalizePositionByRegion.py",
+    "sha256": "db70a9160405fb6fa1107b5075eda959b501694b040f4bab00c4407ee4053edd",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_finetune_cel.py",
+    "sha256": "bb6fe7a779221a17a4d04326937ac8e2a5d31f91aeb2781d09853b9f0ba92038",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "helpers/homography.py",
+    "sha256": "618ffd54e278fa29930ed462503058fd23b80f7605d01c91c51546e06f685322",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "GT_zapisuvanje_anchorless.py",
+    "sha256": "f558eb55da07847c21b0fce648972e9a51e8d43983cc53ade71b66a6b6b6e38e",
+    "parse_error": "expected an indented block after 'elif' statement on line 258 (<unknown>, line 265)"
+  },
+  {
+    "path": "loadtxt.py",
+    "sha256": "17b5901aa62960d0f7cc073c6ad0ef90b650d2c535522d0a9350fa01baa5ef08",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_parts_renamed.py",
+    "sha256": "1e3cb51a4fe4cd678b6cb3be5051bc6bc48c1bb7735725d52303ca50bed51d95",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "training.py",
+    "sha256": "a077e8c1723af138b87aa1c4af3802ab519d4f2fe542afee40814f33761bee0b",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "helper_data_load.py",
+    "sha256": "5da13f908714d101bb771c33768dfa39d9c45d2e0cdaf16849a9c1b6c29031ca",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "get_ssd_gt.py",
+    "sha256": "045ef2f4045161f5c9d2617e3fecec2ce54584feed830d8d3ef7816939dfe9fc",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_test_normalizedByRegion.py",
+    "sha256": "7a785f7e738315f55bdfc4ccc4dc76051d52cf16112f8c1153b8f1f06a82f6a3",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "Vozila/change_bbox_format.py",
+    "sha256": "47964e9e5a099865d94d8309e966d838bae3107b23fb71751e58c1be186a3a00",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "Vozila/nms_gemini.py",
+    "sha256": "8ab6c9bf62ccbb606f609487baa9314b08f3107b77f50ac504a6d32021c4e0c3",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "Vozila/pyvenv.cfg",
+    "sha256": "16dd7852cb303e88f8360674f44b3c6dcc0e60b40acdc3eab0160c99fcf8db81"
+  },
+  {
+    "path": "rename_gt.py",
+    "sha256": "8b7feec38772f10a945c46434e49ff1b693df9873f5e48c4b460aaacf940f0a2",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "save_results_anchorless_limits.py",
+    "sha256": "f01c7d7dc56bb99ba88047f9f08d2ec2a8f6f5becfa6cf5f75791ea520e93308",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_test_two_halves_imgs.py",
+    "sha256": "4f493d726a3cf0589ebd3b7466a5a8375ce5ceaf77ddae4901c0046fe32c6bf4",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "FCN_SSD_anchorless_distance.py",
+    "sha256": "f824cb4ac28020da78a49a623fa9906bb5f0763e9087ca96e9023b19f1fa3638",
+    "duplicate_definitions": []
+  },
+  {
+    "path": "Keras_LivePlot_Callback.txt",
+    "sha256": "514169e62b4117e23b45252497f558ff2e2b8f84f271c7772bb9e59fdaa27473"
+  },
+  {
+    "path": "crtaj_anotacija.py",
+    "sha256": "714fb9ca087410088df12507f12b309389e3f3c3bf1a5114fb00427c0437305a",
+    "duplicate_definitions": []
+  }
+]
