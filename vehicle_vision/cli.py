@@ -30,6 +30,18 @@ def create_parser():
     predict.add_argument("--config", type=Path, required=True)
     predict.add_argument("--images", type=Path, required=True)
     predict.add_argument("--output", type=Path, required=True)
+    for command in ("train", "validate-training"):
+        training = commands.add_parser(
+            command, help="Train or validate precomputed detector targets"
+        )
+        training.add_argument("--config", type=Path, required=True)
+        training.add_argument(
+            "--trust-pickle",
+            action="store_true",
+            help="Allow loading your own legacy generated pickle targets",
+        )
+        if command == "train":
+            training.add_argument("--output", type=Path, required=True)
     return parser
 
 
@@ -65,6 +77,22 @@ def main(argv=None) -> int:
             model = load_detector(args.model, args.weights)
             count = predict_directory(model, args.images, args.output, config)
             logging.info("Processed %s images; results saved to %s", count, args.output)
+        elif args.command in {"train", "validate-training"}:
+            from .training import TrainingConfig, train, validate_training_data
+
+            config = TrainingConfig.load(args.config)
+            if args.command == "train":
+                report = train(config, args.output, trust_pickle=args.trust_pickle)
+            else:
+                training, validation = validate_training_data(
+                    config, trust_pickle=args.trust_pickle
+                )
+                report = {
+                    "training_samples": len(training),
+                    "validation_samples": len(validation),
+                    "status": "All image and target pairs validated",
+                }
+            print(json.dumps(report, indent=2))
     except (ValueError, OSError, RuntimeError, KeyError) as error:
         logging.error("%s", error)
         return 1
