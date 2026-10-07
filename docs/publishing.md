@@ -7,26 +7,26 @@ package, class-aware evaluation, video processing, and automated tests."
 
 ## Publication Contents
 
-The maintained package, tests, configuration, synthetic example, and English
-documentation are prepared for publication. Historical experiments, private
-datasets, videos, model weights, local environments, and IDE files are excluded
+The maintained package, original research and training source, tests,
+configuration, synthetic example, and English documentation are included.
+Private datasets, videos, model weights, local environments, and IDE files are excluded
 by `.gitignore`. The project owner identifies this research as her own work,
 developed from an initial machine-vision baseline. No license has been selected.
 
-## Connect A Repository
+## Repository
 
-Create an empty repository under your GitHub account, then run from this folder:
+The project is published at
+[monikatodevska/vehicle-vision](https://github.com/monikatodevska/vehicle-vision).
+The local `origin` remote points to that repository. For later changes:
 
 ```bash
 git add .
-git commit -m "Organize vehicle detection research and add tested Python package"
-git remote add origin https://github.com/YOUR-USERNAME/vehicle-vision.git
-git push -u origin main
+git commit -m "Describe the change"
+git push origin main
 ```
 
-Use the actual repository URL in place of the placeholder. Authentication must
-be provided by your GitHub account. If the remote already has commits, fetch
-and review its history before integrating it.
+Command-line pushes require GitHub authentication separately from the browser
+session. The initial publication used authenticated browser uploads.
 
 ## Presenting The Project
 

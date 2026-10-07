@@ -4,13 +4,14 @@ The supplied folder contained 128 Python files, numerous model variants,
 temporary experiments, a Windows Python runtime, IDE state, and one checkpoint.
 All original research files were moved together to `archive/research/` so their
 sibling imports remain available. Copied baseline author/contact headers were
-removed at the project owner's request. This local archive is excluded from Git;
-the public repository contains the maintained package and documentation.
+removed at the project owner's request. The archive is included in Git alongside
+the maintained package, preserving the training code and supporting utilities.
 
 The [inventory](research-inventory.json) records original relative paths,
 SHA-256 hashes, syntax failures, and repeated top-level definitions. It provides
 an audit trail of the supplied source before header cleanup. Runtime binaries,
-caches, IDE state, the checkpoint, and archived scripts are excluded from Git.
+caches, IDE state, and the checkpoint are excluded from Git. All 128 Python
+research files are included; five retain the recorded original syntax errors.
 
 ## Maintained Replacements
 
@@ -24,8 +25,8 @@ caches, IDE state, the checkpoint, and archived scripts are excluded from Git.
 | Unfinished frame matching script | `tracking.py` (IoU baseline) |
 | Hard-coded inference scripts | `cli.py`, `config.py`, `inference.py` |
 
-The preserved experiments are historical references, not independent supported
-applications. Training, custom losses, calibration, Siamese matching, wavelet
+The preserved experiments are published research source and retain their
+original environment requirements. Training, custom losses, calibration, Siamese matching, wavelet
 models, and specialized multi-output variants still need their original data,
 environment, and experiment settings. The maintained package does not silently
 select one of those variants.
@@ -39,4 +40,5 @@ incomplete historical experiments.
 To examine an original script, use the archive as its working directory. Many
 scripts execute immediately, reference private Windows paths, or modify data.
 Read and configure them before running them. The archive is not imported by
-the maintained package.
+the maintained package. See the [training guide](training.md) for the main
+pipelines and the formats of their precomputed ground truth.
