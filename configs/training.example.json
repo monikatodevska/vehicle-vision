@@ -1,0 +1,17 @@
+{
+  "train_images": "data/train/images",
+  "train_targets": "data/train/ground_truth",
+  "validation_images": "data/validation/images",
+  "validation_targets": "data/validation/ground_truth",
+  "height": 341,
+  "width": 512,
+  "num_classes": 4,
+  "batch_size": 32,
+  "epochs": 30,
+  "learning_rate": 0.0001,
+  "seed": 5,
+  "target_format": "legacy_pickle",
+  "normalize_pixels": false,
+  "focal_gamma": 2.0,
+  "regression_weight": 0.01
+}
