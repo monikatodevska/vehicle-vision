@@ -1,0 +1,26 @@
+import cv2
+ image = cv2.imread(r'D:\Monika\Trening_With_Translations-Up-Down-All_Cams\Images\kam33_dobri_oblacno\image006347.jpg', 0)
+ # image=image/255.0
+ # cv2.imshow('slika',image)
+ # cv2.waitKey(0)
+ # rows, col=image.shape[:2]
+ # if im_size != (col,rows):
+ #     image = cv2.resize(image, im_size, interpolation=cv2.INTER_AREA)
+ import pywt
+ original = image
+
+ # Wavelet transform of image, and plot approximation and details
+ titles = ['Approximation', ' Horizontal detail',
+           'Vertical detail', 'Diagonal detail']
+ coeffs2 = pywt.dwt2(original, 'db1')
+ LL, (LH, HL, HH) = coeffs2
+ LL = LL / 255
+ LH = LH / 255
+ HL = HL / 255
+ HH = HH / 255
+ # LL = LL.reshape(LL.shape + (1,))
+ # LH = LH.reshape(LH.shape + (1,))
+ # HL = HL.reshape(HL.shape + (1,))
+ # HH = HH.reshape(HH.shape + (1,))
+ plt.imshow(LL)
+ plt.show()

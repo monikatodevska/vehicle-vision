@@ -1,0 +1,93 @@
+class TrainingPlot(Callback):
+    """
+    Keras callback to enable live plot of training and validation loss that updates after every epoch
+    To select whether to plot loss or accuracy, uncomment the corresponding block below. Plotting both in not enabled.
+    To use:
+        1. plot_losses = helper_stats.TrainingPlot()
+        2. add plot_losses to the list of callbacks in model.fit
+    Takes no input parameters. (For figure saving option, uncomment __init__ method and supply destination path in constructor.)
+    """
+
+    '''
+    def __init__(self, dst_path):
+        self.dst_path = dst_path    # instance variable, unique to each instance
+    '''
+
+    # This function is called when the training begins
+    def on_train_begin(self, logs={}):
+        # Initialize the lists for holding the logs, losses and accuracies
+        self.losses = []
+        self.acc = []
+        self.val_losses = []
+        self.val_acc = []
+        self.logs = []
+
+    # This function is called at the end of each epoch
+    def on_epoch_end(self, epoch, logs={}):
+
+        # Append the logs, losses and accuracies to the lists
+        self.logs.append(logs)
+        self.losses.append(logs.get('loss'))
+        self.acc.append(logs.get('accuracy'))
+        self.val_losses.append(logs.get('val_loss'))
+        self.val_acc.append(logs.get('val_accuracy'))
+
+        # Before plotting, ensure at least 2 epochs have passed
+        if len(self.losses) > 1:
+
+            N = np.arange(0, len(self.losses))
+
+            # To chose the style of your preference
+            # print(plt.style.available) to see the available options
+            # plt.style.use("seaborn")
+
+            # Plot train loss, train acc, val loss and val acc against epochs passed
+
+            '''
+            # --- plot loss --- 
+            plt.figure(num=1)   # add figure number to stop generating new figure after each epoch
+            plt.plot(N, self.losses, 'g', label = "train_loss")     # green line
+            plt.plot(N, self.val_losses, 'r', label = "val_loss")   # red line
+
+            plt.title("Training and Validation Loss [Epoch {}]".format(epoch))
+            plt.xlabel("Epoch #")
+            plt.ylabel("Loss")
+            # plt.legend()      # legend is not used because it is expanded after each call
+
+            plt.pause(0.05)     # to keep figure on screen, otherwise block=False removes the figure instantly
+            plt.show(block=False)   # block=False stops the shown figure to block execution until closed
+
+            # Make sure the output directory exists
+            # plt.savefig(os.path.join(self.dst_path, 'train_epoch-{}.png'.format(epoch)))
+            '''
+
+            # --- plot accuracy ---
+            plt.figure(num=1)     # add figure number to stop generating new figure after each epoch
+            plt.plot(N, self.acc, 'g', label="train_acc")   # green line
+            plt.plot(N, self.val_acc, 'r', label="val_acc")     # red line
+
+            plt.title("Training and Validation Accuracy [Epoch {}]".format(epoch))
+            plt.xlabel("Epoch #")
+            plt.ylabel("Accuracy")
+            # plt.legend()      # legend is not used because it is expanded after each call
+
+            plt.pause(0.05)     # to keep figure on screen, otherwise block=False removes the figure instantly
+            plt.show(block=False)   # block=False stops the shown figure to block execution until closed
+
+            # Make sure the output directory exists
+            # plt.savefig(os.path.join(self.dst_path, 'val_epoch-{}.png'.format(epoch)))
+
+
+
+
+# POVIK:
+
+plot_losses = helper_stats.TrainingPlot()       # enable live plot of training and validation loss that updates after every epoch, optional
+                                                # add plot_losses to the list of callbacks in model.fit
+
+history = model.fit(X_train, Y_train,
+                    batch_size=batch_size,  # number of samples to process before updating the weights
+                    epochs=epochs,
+                    callbacks=[model_checkpoint, plot_losses],
+                    verbose=1,
+                    validation_data=(X_val, Y_val))
